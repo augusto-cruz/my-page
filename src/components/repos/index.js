@@ -26,7 +26,7 @@ export default class Repos extends Component {
         return (
             <div className="repo-list">
                 {this.state.repos.map(repo => (
-                    <article>
+                    <article key={repo.id}>
                         <a href={repo.html_url} target="_blank" className="title">
                             <strong>{repo.name}</strong>
                         </a>
