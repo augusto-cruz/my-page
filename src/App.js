@@ -31,13 +31,14 @@ export default class App extends Component {
       <main>
 
         <header>
+          <div className="header-content">
+            <img src={myData.avatar_url} alt="Augusto Cruz"></img>
 
-          <img src={myData.avatar_url}></img>
-          <p>
-            <strong>Augusto Cruz</strong>
-          </p>
-          <p>{myData.bio}</p>
-
+            <p>
+              <strong>Augusto Cruz</strong>
+            </p>
+            <p>{myData.bio}</p>
+          </div>
         </header>
 
         <Repos />

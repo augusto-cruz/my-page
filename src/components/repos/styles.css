@@ -1,14 +1,17 @@
 .repo-list {
-    max-width: 700px;
-    margin: 20px auto 0;
-    padding: 0 20px;
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 0 15px;
 }
 
 .repo-list article {
-    background: #FFF;
+    width: 400px;
+    background: rgb(223, 133, 16);
+    color: #FFF;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     transition: 0.2s;
 }
 
@@ -16,4 +19,8 @@
     -webkit-box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
+}
+
+.repo-list article .title {
+    font-size: 22px;
 }

@@ -5,11 +5,9 @@
 }
 
 body {
-    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(3,0,56);
-    background: linear-gradient(180deg, rgba(3,0,56,1) 0%, rgba(4,0,74,1) 5%, rgba(0,212,255,1) 100%);
-    color: #333;
+    background: #FFF;
+    color: #FFF;
 }
 
 p {
@@ -19,7 +17,7 @@ p {
 a {
     text-decoration: none;
     color: inherit;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 a:hover {
@@ -27,11 +25,22 @@ a:hover {
 }
 
 img {
-    width: 150px;
+    width: 170px;
     border-radius: 100%;
-    margin: 20px auto 0;
 }
 
 header {
-    color: #FFF;
+    background: url("./assets/img/background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 25px;
+}
+
+header .header-content {
+    width: 200px;
+    margin: 0 auto 0;
+    text-align: center;
+    padding: 70px 0;
 }
