@@ -3,6 +3,9 @@ import api from './services/api';
 import Repos from './components/repos';
 import './styles.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
+
 export default class App extends Component {
 
   state = {
@@ -39,6 +42,21 @@ export default class App extends Component {
             </p>
             <p>{myData.bio}</p>
           </div>
+
+          
+
+          <div class="social-button">
+
+            <div className="button">
+              <FontAwesomeIcon icon={faGithub} />
+            </div>
+
+            <FontAwesomeIcon icon={faLinkedin} />
+
+            <FontAwesomeIcon icon={faCodepen} />
+
+          </div>
+
         </header>
 
         <Repos />

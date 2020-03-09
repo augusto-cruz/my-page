@@ -44,3 +44,18 @@ header .header-content {
     text-align: center;
     padding: 70px 0;
 }
+
+
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+  
+  
+.social-button .button {
+    background: #ddd;
+}
+
+  
