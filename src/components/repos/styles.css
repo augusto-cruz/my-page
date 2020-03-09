@@ -1,0 +1,19 @@
+.repo-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.repo-list article {
+    background: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.repo-list article:hover {
+    -webkit-box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.75);
+}
