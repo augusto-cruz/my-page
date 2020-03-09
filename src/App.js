@@ -47,13 +47,17 @@ export default class App extends Component {
 
           <div class="social-button">
 
-            <div className="button">
+            <a className="button github">
               <FontAwesomeIcon icon={faGithub} />
-            </div>
+            </a>
 
-            <FontAwesomeIcon icon={faLinkedin} />
+            <a className="button linkedin">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
 
+            <a className="button codepen">
             <FontAwesomeIcon icon={faCodepen} />
+            </a>
 
           </div>
 
