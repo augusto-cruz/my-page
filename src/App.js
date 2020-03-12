@@ -37,9 +37,9 @@ export default class App extends Component {
           <div className="header-content">
             <img src={myData.avatar_url} alt="Augusto Cruz"></img>
 
-            <p>
+            <h3>
               <strong>Augusto Cruz</strong>
-            </p>
+            </h3>
             <p>{myData.bio}</p>
           </div>
 
@@ -47,15 +47,15 @@ export default class App extends Component {
 
           <div class="social-button">
 
-            <a className="button github">
+            <a href="https://github.com/augusto-cruz" target="_blank" className="button github">
               <FontAwesomeIcon icon={faGithub} />
             </a>
 
-            <a className="button linkedin">
+            <a href="https://www.linkedin.com/in/augustoccruz/" target="_blank" className="button linkedin">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
 
-            <a className="button codepen">
+            <a href="https://codepen.io/augusto-cruz" target="_blank" className="button codepen">
             <FontAwesomeIcon icon={faCodepen} />
             </a>
 

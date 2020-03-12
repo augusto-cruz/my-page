@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    line-height: 25px;
+    line-height: 35px;
 }
 
 a {
@@ -43,7 +43,7 @@ header .header-content {
     width: 200px;
     margin: 0 auto 0;
     text-align: center;
-    padding: 70px 0;
+    padding: 70px 0 50px ;
 }
 
 
